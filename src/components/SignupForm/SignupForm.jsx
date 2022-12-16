@@ -90,7 +90,7 @@ const SignupForm = () => {
             {errors.length ? <ErrorMessage>{errors.map(elm => <p key={elm}>{elm}</p>)}</ErrorMessage> : undefined}
 
             <div className="d-grid">
-                <Button variant="dark" type="submit" disabled={loadingImage}>{loadingImage ? 'Subiendo imagen...' : 'Registrarme'}</Button>
+                <Button className="create-button" type="submit" disabled={loadingImage}>{loadingImage ? 'Subiendo imagen...' : 'Registrarme'}</Button>
             </div>
 
         </Form>
