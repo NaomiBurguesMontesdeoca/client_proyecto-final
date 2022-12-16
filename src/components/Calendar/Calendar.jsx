@@ -84,8 +84,8 @@ const EventCalendar = ({ filterEvent, events }) => {
                 <Modal.Body>
                     <h2 className="calendar-event-title">{eventInfo.title}</h2>
                     <p className="calendar-event-description">{eventInfo.description}</p>
-                    <Button onClick={() => joinToAnEvent(eventInfo.id)} variant="dark" size="sm">Asistir</Button>
-                    <Button onClick={() => unJoinToAnEvent(eventInfo.id)} variant="dark" size="sm">No asistir</Button>
+                    <Button className="create-button" onClick={() => joinToAnEvent(eventInfo.id)} variant="dark" size="sm">Asistir</Button>
+                    <Button className="create-buttons margin-left" onClick={() => unJoinToAnEvent(eventInfo.id)} variant="dark" size="sm">No asistir</Button>
                 </Modal.Body>
             </Modal >
         </div>
