@@ -1,0 +1,30 @@
+.category-container {
+    margin-top: 2rem !important;
+}
+
+.category-row {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.category-row .col-md-2 {
+    width: 19.666667%
+}
+
+.category-image {
+    width: 90%;
+    margin: 5%;
+    object-fit: cover;
+    height: 150px;
+}
+
+.category-title {
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 2px 2px #D6CCC2;
+    color: rgb(30, 30, 30);
+}
+
+.category-capitalize {
+    margin-bottom: 1rem;
+}

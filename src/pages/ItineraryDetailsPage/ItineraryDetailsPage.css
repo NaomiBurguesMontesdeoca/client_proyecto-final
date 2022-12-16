@@ -1,0 +1,41 @@
+.details-image {
+    margin-top: 1rem;
+    height: 18rem;
+    width: 18rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+}
+
+.details-title {
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 2px 2px #D6CCC2;
+    color: rgb(30, 30, 30);
+}
+
+.details-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details-elements {
+    display: flex;
+    justify-content: left;
+}
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.events-line-details {
+    --bs-gutter-x: 0;
+    margin-left: 100px;
+}

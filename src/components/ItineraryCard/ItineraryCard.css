@@ -1,0 +1,61 @@
+.category-row .col-md-2 {
+    width: 19.666667%
+}
+
+.itinerary-image {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.itinerary-card-title {
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 2px 2px #D6CCC2;
+    color: rgb(30, 30, 30);
+}
+
+.category-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itinerary-button {
+    width: 20%;
+    height: 10%;
+}
+
+.fill-card {
+    color: rgb(30, 30, 30);
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid #dadde0;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px, solid, #F5EBE0 !important;
+}
+
+.fill-card::after {
+    content: "";
+    background-color: #F5EBE0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.fill-card:hover::after {
+    top: 0px;
+    left: 0px;
+}

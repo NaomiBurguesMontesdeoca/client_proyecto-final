@@ -1,0 +1,33 @@
+.btn-primary {
+    --bs-btn-color: rgb(30, 30, 30);
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #D5BDAF;
+    --bs-btn-hover-bg: none;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #D5BDAF;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #D5BDAF;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+
+.create-button {
+    --bs-btn-color: rgb(30, 30, 30);
+    --bs-btn-bg: #F5EBE0;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: rgb(30, 30, 30);
+    --bs-btn-hover-bg: #E3D5CA;
+    /* --bs-btn-hover-border-color: none; */
+    /* --bs-btn-focus-shadow-rgb: 49, 132, 253; */
+    /* --bs-btn-active-color: #D5BDAF; */
+    /* --bs-btn-active-bg: none; */
+    /* --bs-btn-active-border-color: none; */
+    /* --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); */
+    /* --bs-btn-disabled-color: #D5BDAF; */
+    /* --bs-btn-disabled-bg: none; */
+    /* --bs-btn-disabled-border-color: none; */
+}
